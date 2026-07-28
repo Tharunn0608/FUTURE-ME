@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start FutureMe Backend",
+      "type": "shell",
+      "command": "npm start",
+      "options": {
+        "cwd": "${workspaceFolder}/futureme/backend"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
